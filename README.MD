@@ -53,8 +53,8 @@ O sistema deverá receber dois parâmetros via terminal que representarão dois 
      }
      ```
 
-4. **Correção do Loop `for`**:
-   - Ajustado o loop de contagem para que os números incrementados iniciem no valor `1` e terminem no total de interações, calculado como a diferença entre os dois parâmetros:
+4. **Criação do `for`**:
+   - Criado o loop de contagem para que os números incrementados iniciem no valor `1` e terminem no total de interações, calculado como a diferença entre os dois parâmetros:
      ```java
      for (int i = 1; i <= contagem; i++) {
          System.out.println("Imprimindo o número " + i);
